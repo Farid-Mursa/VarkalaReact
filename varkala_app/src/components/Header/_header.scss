@@ -51,7 +51,7 @@ header{
                 border: none;
                 outline: none;
             }
-            i{
+            svg{
                 font-size: 18px;
             }
             border-bottom: 1px solid lightgray;
@@ -63,6 +63,15 @@ header{
         }
 
         .person-basket{
+            svg{
+                padding: 0 6px;
+                font-size: 22px;
+                transition: .3s;
+                 
+                &:hover{
+                    color: #bcac76;
+                }
+            }
             .person{
                 font-size: 26px;
             }
@@ -71,15 +80,6 @@ header{
             }
             .menu{
                 font-size: 26px;
-            }
-            i{
-                padding: 0 6px;
-                font-size: 22px;
-                transition: .3s;
-                 
-                &:hover{
-                    color: #bcac76;
-                }
             }
             span{
                 position: absolute;

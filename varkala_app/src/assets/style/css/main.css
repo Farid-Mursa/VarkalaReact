@@ -51,11 +51,19 @@ header .input-basket .search input {
   border: none;
   outline: none;
 }
-header .input-basket .search i {
+header .input-basket .search svg {
   font-size: 18px;
 }
 header .input-basket .search:hover {
   border-bottom: 1px solid black;
+}
+header .input-basket .person-basket svg {
+  padding: 0 6px;
+  font-size: 22px;
+  transition: 0.3s;
+}
+header .input-basket .person-basket svg:hover {
+  color: #bcac76;
 }
 header .input-basket .person-basket .person {
   font-size: 26px;
@@ -65,14 +73,6 @@ header .input-basket .person-basket .basket {
 }
 header .input-basket .person-basket .menu {
   font-size: 26px;
-}
-header .input-basket .person-basket i {
-  padding: 0 6px;
-  font-size: 22px;
-  transition: 0.3s;
-}
-header .input-basket .person-basket i:hover {
-  color: #bcac76;
 }
 header .input-basket .person-basket span {
   position: absolute;

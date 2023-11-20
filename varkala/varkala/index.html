@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <title>Varkala</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <div class="left">
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>020-800-456-747</span>
+                </div>
+            </div>
+            <div><span>Free in-store delivery</span></div>
+            <div class="right ml-3">
+                <button class="dropbtn">English <i class="fa-solid fa-angle-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">German</a>
+                    <a href="#">French</a>
+                </div>
+                <button class="dropbtn">USD <i class="fa-solid fa-angle-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">EUR</a>
+                    <a href="#">GBR</a>
+                </div>
+            </div>
+        </div>
+        <div class="leke">
+            <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="#e0d4ab" d="M354,340Q240,440,139.5,340Q39,240,139.5,125Q240,10,354,125Q468,240,354,340Z" />
+            </svg>
+        </div>
+        <div class="container-fluid" style="position: absolute; top: 50px; z-index: 5;">
+            <div class="row">
+                <div class="col-lg-7 col-4">
+                    <div class="lists">
+                        <ul>
+                            <li><a class="active" href="./index.html">Varkala</a></li>
+                            <li class="myList active">
+                                Home <i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li class="myList">Shop <i class="fa-solid fa-angle-down"></i></li>
+                            <li class="myList">Icons <i class="fa-solid fa-angle-down"></i></li>
+                            <li class="myList">Pages <i class="fa-solid fa-angle-down"></i></li>
+                            <li class="myList">Docs <i class="fa-solid fa-angle-down"></i></li>
+                        </ul>
+                        <ul class="home-list">
+                            <li>Home 1 - Fashion</li>
+                            <li>Home 2 - Fashion</li>
+                            <li>Home 3 - Design <span> New</span></li>
+                            <li>Home 4 - Design <span> New</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-4">
+                    <div class="input-basket">
+                        <div class="search">
+                            <input type="text" name="search" id="search" placeholder="Search">
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <div class="myList person-basket">
+                            <i class="person bi bi-person"></i>
+                            <i class="bi bi-heart"></i> <span class="wishlist">3</span>
+                            <i class="myList bi bi-basket" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop"></i> <span class="baskett">3</span>
+                            <i class="myList bi bi-list" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBack"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <section id="SideBasket">
+            <div class="modal-dialog m-0 p-0">
+                <div class="modal-content parent">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="products">
+                            <div class="image">
+                                <img src="./assets/images/product-square-ian-dooley-347968-unsplash.jpg" alt="">
+                            </div>
+                            <div class="name-price">
+                                <p class="name">Skull Tee</p>
+                                <p class="quantity">Quantity: <span class="baseCount">1</span></p>
+                                <p class="name" style="font-family: monospace;">&75.00</p>
+                            </div>
+                            <div class="xBtn btn-close"></div>
+                        </div>
+                        <div class="products">
+                            <div class="image">
+                                <img src="./assets/images/product-square-ian-dooley-347968-unsplash.jpg" alt="">
+                            </div>
+                            <div class="name-price">
+                                <p class="name">Skull Tee</p>
+                                <p class="quantity">Quantity: <span class="baseCount">1</span></p>
+                                <p class="name" style="font-family: monospace;">&75.00</p>
+                            </div>
+                            <div class="xBtn btn-close"></div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <div class="subTotal">
+                            <p>Subtotal:</p>
+                            <p class="total">$180.00</p>
+                        </div>
+                        <button class="view">View Cart</button>
+                        <button>Checkout</button>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="modal fade" id="staticBack" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <section id="SideBasket">
+            <div class="modal-dialog m-0 p-0">
+                <div class="modal-content parent">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+
+                    <div class="sidebar-body">
+                        <h5>Varkala</h5>
+                        <div class="dropdown-container">
+                            <ul class="list-column">
+                                <li class="column-items active">Home</li>
+                                <li class="column-items active">Link</li>
+                                <li class="column-items">Disabled</li>
+                                <li id="dropdownLink" class="column-items active dropdown">Dropdown link <i
+                                        class="fa-solid fa-angle-down rotate-icon"></i></li>
+                            </ul>
+
+                            <ul id="dropdownList" class="dropdown-list">
+                                <li class="dropdown-items">Action</li>
+                                <li class="dropdown-items">Another action</li>
+                                <li class="dropdown-items">Something else here</li>
+                            </ul>
+                        </div>
+
+                        <div class="contact">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>020-800-456-747</span>
+                        </div>
+                        <p>Samsa was a travelling salesman - and above it there hung a picture that he had recently cut
+                            out of an
+                            illustrated magazine and housed in a nice, gilded frame.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="dropDown">
+        <div id="homeDrop" class="homeDrop animate__animated">
+            <p>Home 1 - Fashion</p>
+            <p>Home 2 - Fashion</p>
+            <p><a href="./index.html">Home 3 - Design <span> New</span></a></p>
+            <p>Home 4 - Design <span> New</span></p>
+        </div>
+
+        <div id="shopDown" class="shopDown animate__animated">
+            <div class="parent">
+                <div class="pages">
+                    <p class="title">Shop pages</p>
+                    <p>Full width</p>
+                    <p>Full width with category menu</p>
+                    <p>Full width with big products</p>
+                    <p>Fixed width</p>
+                    <p>Fixed width & sidebar</p>
+                    <p>Fixed width & masonary layout <span>New</span></p>
+                    <p>Subcategory</p>
+                </div>
+                <div class="proPages">
+                    <p class="title">Product pages</p>
+                    <p>Product with sticky info</p>
+                    <p>Product with background</p>
+                    <p>Product standard</p>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/kyle-loftus-596319-unsplash-cropped.jpg" alt="Person">
+                </div>
+            </div>
+        </div>
+
+        <div id="iconsDown" class="iconsDown animate__animated w-50 m-0 p-0 pt-3">
+            <div class="container-fluid m-0 p-0">
+                <div class="row p-0 m-0">
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="icon-name">
+                            <p><i class="bi bi-person-standing-dress"></i></p>
+                            <p class="dress">Trousers</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 bottomText mt-4">
+                        <p>Don't miss our biggest sales this year. Use the code "SUMMER35" at checkout until Jun. 15!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="pagesDown" class="pagesDown animate__animated">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="image-info">
+                            <div class="image">
+                                <img src="./assets/images/christopher-campbell-28571-unsplash.jpg" alt="">
+                            </div>
+                            <div class="info-1">
+                                <h4>Homepage</h4>
+                                <p>Home 1 - Fashion</p>
+                                <p>Home 2 - Fashion</p>
+                                <p>Home 3 - Design <span>New</span></p>
+                                <p>Home 4 - Design <span>New</span></p>
+                            </div>
+                            <div class="info-1">
+                                <h4>Homepage</h4>
+                                <p>Home 1 - Fashion</p>
+                                <p>Home 2 - Fashion</p>
+                                <p>Home 3 - Design <span>New</span></p>
+                                <p>Home 4 - Design <span>New</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="image-info">
+                            <div class="image">
+                                <img src="./assets/images/ian-dooley-347962-unsplash.jpg" alt="">
+                            </div>
+                            <div class="info-1">
+                                <h4>Homepage</h4>
+                                <p>Home 1 - Fashion</p>
+                                <p>Home 2 - Fashion</p>
+                                <p>Home 3 - Design <span>New</span></p>
+                                <p>Home 4 - Design <span>New</span></p>
+                            </div>
+                            <div class="info-1">
+                                <h4>Homepage</h4>
+                                <p>Home 1 - Fashion</p>
+                                <p>Home 2 - Fashion</p>
+                                <p>Home 3 - Design <span>New</span></p>
+                                <p>Home 4 - Design <span>New</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="image-info">
+                            <div class="image">
+                                <img src="./assets/images/ian-dooley-347942-unsplash.jpg" alt="">
+                            </div>
+                            <div class="info-1">
+                                <h4>Homepage</h4>
+                                <p>Home 1 - Fashion</p>
+                                <p>Home 2 - Fashion</p>
+                                <p>Home 3 - Design <span>New</span></p>
+                                <p>Home 4 - Design <span>New</span></p>
+                            </div>
+                            <div class="info-1">
+                                <h4>Homepage</h4>
+                                <p>Home 1 - Fashion</p>
+                                <p>Home 2 - Fashion</p>
+                                <p>Home 3 - Design <span>New</span></p>
+                                <p>Home 4 - Design <span>New</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="image-info">
+                            <div class="image">
+                                <img src="./assets/images/photo-1534126511673-b6899657816a.jpg" alt="">
+                            </div>
+                            <div class="info-1">
+                                <h4>Homepage</h4>
+                                <p>Home 1 - Fashion</p>
+                                <p>Home 2 - Fashion</p>
+                                <p>Home 3 - Design <span>New</span></p>
+                                <p>Home 4 - Design <span>New</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="docsDrop" class="docsDrop animate__animated">
+            <p>Introduction</p>
+            <p>Directory structure</p>
+            <p>Gulp</p>
+            <p>Customizing CSS</p>
+            <p>Credits</p>
+            <p style="border-bottom: 1px solid lightgray;padding-bottom: 20px;">Changelog</p>
+            <p>Bootstrap</p>
+            <p>Theme</p>
+        </div>
+
+    </section>
+
+    <section id="Slider">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="title-text-button">
+                                    <div class="title">
+                                        <h3>Time is Almost up</h3>
+                                        <h1>Design clocks on sale</h1>
+                                    </div>
+                
+                                    <div class="button">
+                                        <button>START SHOPPING</button>
+                                    </div>
+                                    <div class="back">
+                                        <svg id="10015.io" viewBox="0 0 480 480"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <path fill="#e7eaf9"
+                                                d="M339,352Q240,464,135,352Q30,240,135,138.5Q240,37,339,138.5Q438,240,339,352Z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="image">
+                                    <img src="./assets/images/clock-transparent.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="title-text-button">
+                                    <div class="title">
+                                        <h3>Our all-time favourites</h3>
+                                        <h1>Black & White</h1>
+                                    </div>
+                                    <div class="text">
+                                        <p>The bedding was hardly able to cover it and seemed ready to slide off
+                                            any
+                                            moment. His
+                                            many legs, pit</p>
+                                    </div>
+                                    <div class="button">
+                                        <button>DISCOVER MORE</button>
+                                    </div>
+                                    <div class="back">
+                                        <svg id="10015.io" viewBox="0 0 480 480"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <path fill="#ffdddd"
+                                                d="M350.5,343Q240,446,133,343Q26,240,133,121.5Q240,3,350.5,121.5Q461,240,350.5,343Z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="image">
+                                    <img src="./assets/images/chair2-transparent.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="title-text-button">
+                                    <div class="title">
+                                        <h3>Our all-time Favourites</h3>
+                                        <h1>Boxxez</h1>
+                                    </div>
+                                    <div class="text">
+                                        <p>The bedding was hardly able to cover it and seemed ready to slide off
+                                            any
+                                            moment. His
+                                            many legs, pit</p>
+                                    </div>
+                                    <div class="button">
+                                        <button>DISCOVER MORE</button>
+                                    </div>
+                                    <div class="back">
+                                        <svg id="10015.io" viewBox="0 0 480 480"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <path fill="#f5e6a8"
+                                                d="M342,359Q240,478,142.5,359Q45,240,142.5,127Q240,14,342,127Q444,240,342,359Z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="image">
+                                    <img src="./assets/images/box-transparent.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-pagination">
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Choices">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 caption">
+                    <h4>Top Choices</h4>
+                    <h2>Popular this week</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="image-title">
+                        <div class="image">
+                            <img src="./assets/images/book-sq.jpg" alt="Book">
+                        </div>
+                        <div class="title">
+                            <h3>Furniture source book</h3>
+                            <p>$39.90</p>
+                            <button>Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="title-image">
+                        <div class="title">
+                            <h3>Norwegg design chair</h3>
+                            <p>$139.90</p>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/images/chair-2-sq.jpg" alt="Chair">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="title-image">
+                        <div class="title w-50">
+                            <h3>Sun Clock</h3>
+                            <p>$89.90</p>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/images/clock-sq.jpg" alt="Book">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="image-title" style="margin-top: 100px;">
+                        <div class="image">
+                            <img src="./assets/images/box-sq.jpg" alt="Chair">
+                        </div>
+                        <div class="title">
+                            <h3>Accessory boxes</h3>
+                            <p>$29.90</p>
+                            <button>Shop Now</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="image-title">
+                        <div class="image">
+                            <img src="./assets/images/clock2-sq.jpg" alt="Book">
+                        </div>
+                        <div class="title">
+                            <h3>Furniture source book</h3>
+                            <p>$39.90</p>
+                            <button>Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="title-image">
+                        <div class="title">
+                            <h3>Norwegg design chair</h3>
+                            <p>$139.90</p>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/images/chair3-3-sq.jpg" alt="Chair">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="DealOfWeak">
+        <div class="leke">
+            <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="#c4e0f3" d="M278,310.5Q158,381,158,239.5Q158,98,278,169Q398,240,278,310.5Z" />
+            </svg>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="info-time">
+                        <div class="info">
+                            <h5>Dealt of the weak</h5>
+                            <h1>Black and white Nordegg chairs</h1>
+                            <p><span class="deleted">$129.90</span> <span>$79.00</span></p>
+                            <p class="discount">$50 off</p>
+                        </div>
+                        <div class="time">
+                            <div id="countdown">
+                                <ul>
+                                    <li><span id="days"></span>days</li>
+                                    <li><span id="hours"></span>Hours</li>
+                                    <li><span id="minutes"></span>Minutes</li>
+                                    <li><span id="seconds"></span>Seconds</li>
+                                </ul>
+                            </div>
+                            <button>Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="image">
+                        <img src="./assets/images/chair2-transparent (1).png" alt="Stol">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Arrivals">
+        <div class="container">
+            <div class="row">
+                <div class="leke">
+                    <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path fill="#f7efcb" d="M300,335Q130,430,137,251.5Q144,73,307,156.5Q470,240,300,335Z" />
+                    </svg>
+                </div>
+                <div class="col-12">
+                    <div class="caption">
+                        <h2>New Arrivals</h2>
+                        <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his
+                            bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a
+                            little he could see his brown belly, slightly domed and divided by arches into stiff
+                            sections
+                        </p>
+                    </div>
+                    <div class="row mt-5 mb-5 gx-5">
+                        <div class="col-8">
+                            <div class="filter">
+                                <ul>
+                                    <li class="active">All Products</li>
+                                    <li>Chairs</li>
+                                    <li>Books</li>
+                                    <li>Clothes</li>
+                                    <li>Accessories</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="products">
+                                <h5>All products</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-once="true">
+                            <div class="image-title-price">
+                                <div class="image">
+                                    <img src="./assets/images/chair.jpg" alt="Product">
+                                    <img class="up" src="./assets/images/chair-2.jpg" alt="Product">
+                                    <div class="cart-detail">
+                                        <div class="cart">
+                                            <p>Add to cart</p>
+                                        </div>
+                                        <div class="detail">
+                                            <i class="bi bi-heart"></i>
+                                            <i class="bi bi-arrows-fullscreen"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    <h6>Norwegg Chair</h6>
+
+                                    <div class="info">
+                                        <p class="price">$40.00</p>
+                                        <p class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-once="true">
+                            <div class="image-title-price">
+                                <div class="image">
+                                    <img src="./assets/images/book.jpg" alt="Product">
+                                    <img class="up" src="./assets/images/book-2.jpg" alt="Product">
+                                    <div class="cart-detail">
+                                        <div class="cart">
+                                            <p>Add to cart</p>
+                                        </div>
+                                        <div class="detail">
+                                            <i class="bi bi-heart"></i>
+                                            <i class="bi bi-arrows-fullscreen"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    <h6>Norwegg Chair</h6>
+
+                                    <div class="info">
+                                        <p class="price">$40.00</p>
+                                        <p class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-once="true">
+                            <div class="image-title-price">
+                                <div class="image">
+                                    <img src="./assets/images/chair2.jpg" alt="Product">
+                                    <img class="up" src="./assets/images/chair2-2.jpg" alt="Product">
+                                    <div class="cart-detail">
+                                        <div class="cart">
+                                            <p>Add to cart</p>
+                                        </div>
+                                        <div class="detail">
+                                            <i class="bi bi-heart"></i>
+                                            <i class="bi bi-arrows-fullscreen"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    <h6>Norwegg Chair</h6>
+
+                                    <div class="info">
+                                        <p class="price">$40.00</p>
+                                        <p class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-once="true">
+                            <div class="image-title-price">
+                                <div class="image">
+                                    <img src="./assets/images/chair3.jpg" alt="Product">
+                                    <img class="up" src="./assets/images/chair3-3.jpg" alt="Product">
+                                    <div class="cart-detail">
+                                        <div class="cart">
+                                            <p>Add to cart</p>
+                                        </div>
+                                        <div class="detail">
+                                            <i class="bi bi-heart"></i>
+                                            <i class="bi bi-arrows-fullscreen"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    <h6>Norwegg Chair</h6>
+
+                                    <div class="info">
+                                        <p class="price">$40.00</p>
+                                        <p class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-once="true">
+                            <div class="image-title-price">
+                                <div class="image">
+                                    <img src="./assets/images/clock.jpg" alt="Product">
+                                    <img class="up" src="./assets/images/clock-2.jpg" alt="Product">
+                                    <div class="cart-detail">
+                                        <div class="cart">
+                                            <p>Add to cart</p>
+                                        </div>
+                                        <div class="detail">
+                                            <i class="bi bi-heart"></i>
+                                            <i class="bi bi-arrows-fullscreen"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    <h6>Norwegg Chair</h6>
+
+                                    <div class="info">
+                                        <p class="price">$40.00</p>
+                                        <p class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-once="true">
+                            <div class="image-title-price">
+                                <div class="image">
+                                    <img src="./assets/images/clock3.jpg" alt="Product">
+                                    <img class="up" src="./assets/images/clock3-2.jpg" alt="Product">
+                                    <div class="cart-detail">
+                                        <div class="cart">
+                                            <p>Add to cart</p>
+                                        </div>
+                                        <div class="detail">
+                                            <i class="bi bi-heart"></i>
+                                            <i class="bi bi-arrows-fullscreen"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    <h6>Norwegg Chair</h6>
+
+                                    <div class="info">
+                                        <p class="price">$40.00</p>
+                                        <p class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-once="true">
+                            <div class="image-title-price">
+                                <div class="image">
+                                    <img src="./assets/images/box.jpg" alt="Product">
+                                    <img class="up" src="./assets/images/box-2.jpg" alt="Product">
+                                    <div class="cart-detail">
+                                        <div class="cart">
+                                            <p>Add to cart</p>
+                                        </div>
+                                        <div class="detail">
+                                            <i class="bi bi-heart"></i>
+                                            <i class="bi bi-arrows-fullscreen"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    <h6>Norwegg Chair</h6>
+
+                                    <div class="info">
+                                        <p class="price">$40.00</p>
+                                        <p class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-once="true">
+                            <div class="image-title-price">
+                                <div class="image">
+                                    <img src="./assets/images/box2.jpg" alt="Product">
+                                    <img class="up" src="./assets/images/box-2.jpg" alt="Product">
+                                    <div class="cart-detail">
+                                        <div class="cart">
+                                            <p>Add to cart</p>
+                                        </div>
+                                        <div class="detail">
+                                            <i class="bi bi-heart"></i>
+                                            <i class="bi bi-arrows-fullscreen"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    <h6>Norwegg Chair</h6>
+
+                                    <div class="info">
+                                        <p class="price">$40.00</p>
+                                        <p class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                            <i class="bi bi-star-fill gray"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Summer">
+        <div class="container">
+            <div class="row">
+                <div class="summer-discount">
+                    <div class="leke">
+                        <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path fill="#bcac76" d="M300,335Q130,430,137,251.5Q144,73,307,156.5Q470,240,300,335Z" />
+                        </svg>
+                    </div>
+                    <div class="all-info">
+                        <h1>Summer Sales</h1>
+                        <h5>Our biggest sales this year — up to 60% off!</h5>
+                        <button>Start Shopping</button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./assets/images/chair-transparent.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <i class="fa fa-truck" aria-hidden="true"></i>
+                        <div class="content">
+                            <h6>Free shipping & return</h6>
+                            <p>Free Shipping over $300</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="bi bi-currency-exchange"></i>
+                        <div class="content">
+                            <h6>Money back guarantee</h6>
+                            <p>30 Days Money Back Guarantee</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="bi bi-coin"></i>
+                        <div class="content">
+                            <h6>Best prices</h6>
+                            <p>Always the best prices</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <i class="bi bi-person"></i>
+                        <div class="content">
+                            <h6>020-800-456-747</h6>
+                            <p>24/7 Available Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <h6>Be in touch</h6>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            <br>At itaque temporibus.
+                        </p>
+                        <form action="">
+                            <input type="text" placeholder="Your Email address">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </form>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="col-lg-4">
+                            <h6>Shop</h6>
+                            <ul class="list">
+                                <li class="list-item"> <a>For women</a></li>
+                                <li class="list-item"><a> For men</a></li>
+                                <li class="list-item"><a>Stores</a></li>
+                                <li class="list-item"><a>Our Blog</a></li>
+                                <li class="list-item"><a>Shop</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h6>Company</h6>
+                            <ul class="list">
+                                <li class="list-item"><a>Login</a></li>
+                                <li class="list-item"><a>Register</a></li>
+                                <li class="list-item"><a>Wishlist</a></li>
+                                <li class="list-item"><a>Our product</a></li>
+                                <li class="list-item"><a>Checkouts</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h6>Your account</h6>
+                            <ul class="list">
+                                <li class="list-item"><a>Login</a></li>
+                                <li class="list-item"><a>Register</a></li>
+                                <li class="list-item"><a>Wishlist</a></li>
+                                <li class="list-item"><a>Our product</a></li>
+                                <li class="list-item"><a>Checkouts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p> © 2020 Your company. All rights reserved. </p>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>Terms & Conditions</p>
+                        <p>Privacy & cookies</p>
+                        <p>Accessibility</p>
+                        <p>Customer Data Promise</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/dropdown.js"></script>
+</body>
+
+</html>
